@@ -43,7 +43,7 @@ V 1.1.0:
 	- HDMI1 is working in monochrome color mode only
 	- At startup fills HDMI1/CAM device frame buffer with 0xAAAA pixel
 	- Inc video frame resolution (1048x557x2) for HDMI1 and CAM video devices
-	- For each pixel: 4 bit hardware left shift for less sagnificant 8 bit pixel data in CAM video device frame buffer
+	- For each pixel: 4 bit hardware left shift for less sagnificant 8 bits of 16 bit pixel data in CAM video device frame buffer
 
 
 **********************************************************************************************
