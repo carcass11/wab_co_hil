@@ -45,6 +45,11 @@ V 1.1.0:
 	- Inc video frame resolution (1048x557x2) for HDMI1 and CAM video devices
 	- For each pixel: 4 bit hardware left shift for less sagnificant 8 bits of 16 bit pixel data in CAM video device frame buffer
 
+V 1.1.1:
+
+	- Added CAN0 and CAN1 services aka (CAN0: VCAN, CAN1: PCAN)
+	- CAN channels transmission configuration: VCAN (250Kbps) - SP: 68%, SJW: 1 and PCAN (250Kbps) - SP: 68%, SJW: 1
+	- At each timer tick event it now transmits a static ego motion (speed: 120 km/h, yawrate: 0) echo message on VCAN
 
 **********************************************************************************************
 
